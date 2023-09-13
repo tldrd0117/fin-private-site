@@ -1,0 +1,8 @@
+.env
+.vscode
+.pytest_cache
+__pycache__
+
+server-py/containers/*
+server-py/webdriver/*
+server-py/stockApp/resouces/*

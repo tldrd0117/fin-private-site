@@ -1,0 +1,58 @@
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+* {
+    z-index: inherit;
+}
+
+
+table {
+    border: 1px solid lightgray;
+  }
+  
+  tbody {
+    border-bottom: 1px solid lightgray;
+  }
+  
+  th {
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    padding: 2px 4px;
+  }
+  
+  tfoot {
+    color: gray;
+  }
+  
+  tfoot th {
+    font-weight: normal;
+  }
+
+.borderBg{
+    background-clip: padding-box, border-box;
+    @apply border-solid border-transparent border-4 rounded bg-origin-border shadow-lg bg-gradient-border from-indigo-500 to-fuchsia-500;
+}
+.cardBg{
+    @apply bg-slate-200 shadow-lg rounded-lg
+}

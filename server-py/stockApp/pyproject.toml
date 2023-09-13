@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "stockApp"
+version = "0.1.0"
+description = ""
+authors = ["tldrd0117 <tldrd0117@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.101.0"
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+luigi = {extras = ["toml"], version = "^3.3.0"}
+pytest = "^7.4.0"
+SQLAlchemy = "1.4.17"
+pymongo = "4.4.1"
+python-dotenv = "^1.0.0"
+selenium = "^4.11.2"
+tenacity = "^8.2.3"
+polars = "^0.18.15"
+pandas = "^2.1.0"
+lxml = "^4.9.3"
+cssselect = "^1.2.0"
+pyarrow = "^13.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+pythonpath = "."

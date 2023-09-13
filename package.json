@@ -1,0 +1,19 @@
+{
+  "name": "fin-private-site",
+  "version": "1.0.0",
+  "description": "제무정보를 개인적으로 수집하고 테스트 가능한 애플리케이션",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tldrd0117/fin-private-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tldrd0117/fin-private-site/issues"
+  },
+  "homepage": "https://github.com/tldrd0117/fin-private-site#readme"
+}

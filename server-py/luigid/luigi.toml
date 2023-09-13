@@ -1,0 +1,6 @@
+[scheduler]
+record_task_history = "true"
+state_path = "/Users/iseongjae/Documents/projects/fin-private-site/server-py/luigid/luigi/luigi-state.pickle"
+
+[task_history]
+db_connection = "sqlite:////Users/iseongjae/Documents/projects/fin-private-site/server-py/luigid/luigi/luigi-task-hist.db"

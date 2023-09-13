@@ -1,0 +1,4 @@
+.primaryButton:hover{
+    background-clip: padding-box, border-box;
+    @apply border-solid border-transparent border-4 bg-origin-border shadow-lg bg-gradient-border from-indigo-500 to-fuchsia-500;
+}
