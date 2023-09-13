@@ -6,6 +6,7 @@ from datetime import datetime
 def test_ClearFilesTask():
     luigi.build([ClearFilesTask()], workers=1, detailed_summary=True)
 
+
 def test_CrawlingTask():
     luigi.build([CrawlingTask(datetime.strptime("20211221", "%Y%m%d"), "kospi")], 
                 workers=1, detailed_summary=True)
