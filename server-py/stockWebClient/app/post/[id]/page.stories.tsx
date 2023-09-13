@@ -24,7 +24,7 @@ async function getData() {
     return {content, frontmatter}
 }
 
-const meta: Meta<typeof PostComponent> = {
+const meta: Meta<typeof Post> = {
     title: "Pages/Post",
     parameters:{
         layout: 'fullscreen'
@@ -33,7 +33,7 @@ const meta: Meta<typeof PostComponent> = {
         const tags = (frontmatter.tags as string).split("(((").slice(1)
         //mdxContents, title, category, tags
         return (
-            <PostComponent id={"hello"} content={content} frontmatter={frontmatter}/>
+            <Post id={"hello"} content={content} frontmatter={frontmatter}/>
         )
     },
     loaders: [
