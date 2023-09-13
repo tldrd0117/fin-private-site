@@ -1,0 +1,20 @@
+{
+  "name": "swagger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "enc_dist.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.4.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "jose": "^4.14.4"
+  }
+}
